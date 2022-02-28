@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@400;500;600;700 & display=swap');
+
 *{
     margin: 0px;
 padding: 0px;
@@ -21,7 +22,6 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 20px 10px;
 }
 .nav_item{
     display: flex;
@@ -30,11 +30,33 @@ a{
 .navbar img{
     width: 100px;
 }
- 
+#color{
+    color: #000000;
+    font-weight: 700;
+
+}
+#color:hover{
+    color: #0065fc;
+    opacity: 0.9;
+}
+#decor{
+    color: #000000;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+#decor:hover{
+    color: #0065fc;
+    opacity: 0.9;
+}
+.navbar a{
+    padding: 15px;
+    margin: 10px 0px;
+}
 #color{
     border-top: 3px solid transparent;
     color: #000000;
-    padding-top: 30px;
+    padding-top: 37px;
     font-weight: bold;
 
 }
@@ -45,9 +67,8 @@ a{
 #decor{
     border-top: 3px solid transparent;
     color: #000000;
-    padding-top: 30px;
+    padding-top: 37px;
     font-weight: bold;
-    margin: 0 20px;
 }
 
 #decor:hover{
@@ -98,8 +119,6 @@ main{
     font-weight: bold;
     font-size: 12px;
     border: none;
-    /*width: 20px;
-    height: 24px;*/
     margin-left: -20px;
     display: inline-block;
     cursor: pointer;
@@ -232,19 +251,20 @@ span.fas.fa-dog:hover{
     }
     .box_1{
         margin-bottom: 30px;
-        gap: 1%;
+        display: flex;
+        justify-content: space-between;
 
     }
     .box_2{
         display: flex;
         justify-content: space-between;
-        gap: 1%;
     }
     .card_wrap{
         background-color: #ffffff;
         border-radius: 15px;
        padding: 3px;
        box-shadow: 3px 3px 3px #f2f2f2;
+       width: 30%;
     }
     .card_wrap:hover{
         cursor: pointer;
@@ -261,7 +281,7 @@ span.fas.fa-dog:hover{
     }
     .card_wrap img{
        height: 110px;
-       width: 210px;
+       width: 100%;
        object-fit: cover;
        object-position: center;
        border-radius: 10px 10px 0 0;
@@ -269,7 +289,6 @@ span.fas.fa-dog:hover{
     .city_appartment h2{
         font-size: 22px;
         padding: 30px;
-        background-color: none;
     }
     .affichage{
         font-weight: bold;
@@ -412,18 +431,17 @@ span.fas.fa-dog:hover{
     .activites_flex{
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
-        gap: 4%;
+        justify-content: space-between;
     }
     .bloc1{
         height: 400px;
-        width: 290px;
+        width: 23%;
     }
     .bloc1 p{
         padding: 10px;
         display: block;
         border-radius: 0 0 15px 15px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        box-shadow: 3px 3px 3px #f2f2f2; 
         margin-top: -19px;
         font-weight: bold;
         color: #000000;
@@ -431,7 +449,7 @@ span.fas.fa-dog:hover{
     .innera1{
         background-color: #ffffff;
         border-radius: 15px;
-        width: 290px;
+        width: 100%;
         height: 400px;
         box-shadow: 3px 3px 3px #f2f2f2;
     }
@@ -441,7 +459,7 @@ span.fas.fa-dog:hover{
         transition: all 1s ease;
     }
     .vieux-port_img img{
-        width: 290px;
+        width: 100%;
         height: 400px;
         object-fit: cover;
         object-position: center;
@@ -452,11 +470,12 @@ span.fas.fa-dog:hover{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 23%;
     }
     .bloc2 p{
         padding: 10px;
         border-radius: 0 0 15px 15px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        box-shadow: 3px 3px 3px #f2f2f2; 
         margin-top: -4px;
         display: block;
         font-weight: bold;
@@ -466,7 +485,7 @@ span.fas.fa-dog:hover{
     .innerb1{
         background-color: #ffffff;
         border-radius: 15px;
-        width: 290px;
+        width: 100%;
         box-shadow: 3px 3px 3px #f2f2f2;
 
     }
@@ -476,7 +495,7 @@ span.fas.fa-dog:hover{
         transition: all 1s ease;
     }
     .pomegues_img img{
-        width: 290px;
+        width: 100%;
         height: 200px;
         object-fit: cover;
         object-position: center;
@@ -486,7 +505,7 @@ span.fas.fa-dog:hover{
     .innerb2{
         background-color: #ffffff;
         border-radius: 15px;
-        width: 290px;
+        width: 100%;
         box-shadow: 3px 3px 3px #f2f2f2;
         margin-top: 37px;
     }
@@ -502,14 +521,14 @@ span.fas.fa-dog:hover{
 
     }
     .friol_img img{
-        width: 290px;
+        width: 100%;
         height: 120px;
         object-fit: cover;
         object-position: center;
         border-radius: 15px 15px 0 0;
     }
     .bloc3{
-        width: 300px;
+        width: 23%;
         height: 400px;
     }
     .bloc3 p{
@@ -519,13 +538,13 @@ span.fas.fa-dog:hover{
         color: #000000;
         background-color: #ffffff;
         border-radius: 0 0 15px 15px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        box-shadow: 3px 3px 3px #f2f2f2; 
         margin-top: -4px;
     }
     .innerc1{
         border-radius: 15px;
-        width: 290px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        width: 100%;
+        box-shadow: 3px 3px 3px #f2f2f2; 
         background-color: #ffffff;
 
     }
@@ -535,7 +554,7 @@ span.fas.fa-dog:hover{
         transition: all 1s ease;
     }
     .calangues_img img{
-        width: 290px;
+        width: 100%;
         height: 400px;
         object-fit: cover;
         object-position: center;
@@ -545,6 +564,7 @@ span.fas.fa-dog:hover{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 23%;
     }
     .bloc4 p{
         padding: 10px;
@@ -553,14 +573,14 @@ span.fas.fa-dog:hover{
         color: #000000;
         background-color: #ffffff;
         border-radius: 0 0 15px 15px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        box-shadow: 3px 3px 3px #f2f2f2; 
         margin-top: -4px;
     }
     .innerd1{
         background-color: #ffffff;
         border-radius: 15px;
-        width: 290px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        width: 100%;
+        box-shadow: 3px 3px 3px #f2f2f2; 
     }
     .innerd1:hover{
         cursor: pointer;
@@ -568,7 +588,7 @@ span.fas.fa-dog:hover{
         transition: all 1s ease;
     }
      .notre_dame_img img{
-        width: 290px;
+        width: 100%;
         height: 140px;
         object-fit: cover;
         object-position: center;
@@ -577,8 +597,8 @@ span.fas.fa-dog:hover{
     .innerd2{
         border-radius: 15px;
         background-color: #ffffff;
-        width: 290px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        width: 100%;
+        box-shadow: 3px 3px 3px #f2f2f2; 
         margin-top: 37px;
     }
     .innerd2:hover{
@@ -587,14 +607,14 @@ span.fas.fa-dog:hover{
         transition: all 1s ease;
     }
     .parc_longchamp_img img{
-        width: 290px;
+        width: 100%;
         height: 180px;
         object-fit: cover;
         object-position: center;
         border-radius: 15px 15px 0 0;
     }
     .bloc4 > a.innerd2 > div > img{
-        width: 290px;
+        width: 100%;
         height: 160px;
         object-fit: cover;
         object-position: center;
@@ -621,7 +641,7 @@ span.fas.fa-dog:hover{
         width: 300px;
         margin: 10px;
         border-radius: 15px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        box-shadow: 3px 3px 3px #f2f2f2; 
     }
     .vieux-port_image img{
         height: 200px;
@@ -671,7 +691,7 @@ span.fas.fa-dog:hover{
         width: 350px;
         margin: 10px;
         border-radius: 15px;
-        box-shadow: 3px 3px 3px #f2f2f2;
+        box-shadow: 3px 3px 3px #f2f2f2; 
     }
     .parc-national_image img{
         height: 200px;
@@ -773,138 +793,144 @@ padding: 5px 0;
 .lightgrey{
     color: #f2f2f2;
 }
-/********tablette******/
+
+
 @media screen and (max-width: 1024px) {
-     #decor{
-        border-bottom: 3px solid transparent;
-        padding-bottom: 13px;
+    .nav_item{
+        width: 40%;
     }
-    #color{
-        border-bottom: 3px solid transparent;
-        padding-bottom: 13px;
+    .nav_item a{
+        text-align: center;
+        width: 50%;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 15px;
     }
-    #color:hover, #decor:hover{
-        color: #0065fc;
-        border-bottom: 3px solid #0065fc;
+    .nav_item a:hover{
+        border-bottom: 2px solid #0065fc;
         border-top: none;
     }
-    .search-form .search-text{
-        display: none;
+   #color:hover, #decor:hover{
+       color: #0065fc;
+   }
+   .search-form .search-text{
+       display: none;
+   }
+   i.fas.fa-search{
+       display: inline;
+       background-color: inherit;
+   }
+    #color{
+       padding-left: 20px;
+   }
+   .appartment_list{
+       display: flex;
+       flex-direction: column;
+   }
+   .city_appartment{
+       margin-top: 30px;
+       order: 3;
+   }
+   .popular_card_1 img{
+       width: 50%;
+   }
+   .popular_card_2 img{
+       width: 50%;
+   }
+   .popular_card_3 img{
+       width: 50%;
+   }
+    .activites_list,
+   .activites_flex{
+    display: none;
     }
-    i.fas.fa-search{
-        display: inline;
-        background-color: inherit;
-    }
-     #color{
-        padding-left: 20px;
-    }
-    .appartment_list{
-        display: flex;
-        flex-direction: column;
-    }
-    .city_appartment{
-        margin-top: 30px;
-        order: 3;
-    }
-    .popular_card_1 img{
-        width: 50%;
-    }
-    .popular_card_2 img{
-        width: 50%;
-    }
-    .popular_card_3 img{
-        width: 50%;
-    }
-     .activites_list,
-    .activites_flex{
-     display: none;
-     }
-    .bloc1, .bloc2, .bloc3, .bloc4{
-        display: none;
-    }
-    
-    .card_wrap{
-        min-width: 30%;
-        margin: 0 0 20px 0;
-    }
-    .card_wrap img{
-        min-width: 100%;
-    }
-    
+   .bloc1, .bloc2, .bloc3, .bloc4{
+       display: none;
+   }
+   
+   .card_wrap{
+       min-width: 30%;
+       margin: 0 0 20px 0;
+   }
+   .card_wrap img{
+       min-width: 100%;
+   }
+   
 
-    /****les activites a marseille****/
-    .activity_loc h2{
-        display: inline;
-    }
-    .colonny{
-        margin-top: 90px;
-    }
-    .colonny{
-        display: inline;
-    }
-    .activity_flex_2{
-        display: inline;
-    }
-    .activity_flex_3{
-        display: inline;
-    }
-    .activity_flex_2{
-        display: flex;
+   /****les activites a marseille****/
+   .activity_loc h2{
+       display: inline;
+   }
+   .colonny{
+       margin-top: 90px;
+   }
+   .colonny{
+       display: inline;
+   }
+   .activity_flex_2{
+       display: inline;
+   }
+   .activity_flex_3{
+       display: inline;
+   }
+   .activity_flex_2{
+       display: flex;
 
-    }
-    .activity_flex_3{
-        display: flex;
-    }
-    .card_activity{
-        width: 30%;
-    }
-    
-    .vieux-port_image img{
-        width: 100%;
-        
-    
-    }
-    .fort-de-pomegues_image img{
-        width: 100%;
-    
-    }
-    .friol_image img{
-        width: 100%;
-    
-    }
-    .parc-national_image img{
-        width: 100%;
-    
-    }
-    .notre-dame_image img{
-        width: 100%;
-    
-    }
-    .longchamp_image img{
-        width: 100%;
-    
-    }
-    .activity_loc{
-        position: relative;
-        top: 40px;
-    }
-    .search-form button{
-        border-radius: 18px;
-    }
+   }
+   .activity_flex_3{
+       display: flex;
+   }
+   .card_activity{
+       width: 30%;
+   }
+   
+   .vieux-port_image img{
+       width: 100%;
+       
+   
+   }
+   .fort-de-pomegues_image img{
+       width: 100%;
+   
+   }
+   .friol_image img{
+       width: 100%;
+   
+   }
+   .parc-national_image img{
+       width: 100%;
+   
+   }
+   .notre-dame_image img{
+       width: 100%;
+   
+   }
+   .longchamp_image img{
+       width: 100%;
+   
+   }
+   .activity_loc{
+       position: relative;
+       top: 40px;
+   }
+   .search-form button{
+       border-radius: 18px;
+   }
 
-    .footer_contents{
-        width: 100%;
-        margin-top: 50px;
-    }
-    .bloc{
-        width: 30%;
-        margin: 0 10px;
-    }
+   .footer_contents{
+       width: 100%;
+       margin-top: 50px;
+   }
+   .bloc{
+       width: 30%;
+       margin: 0 10px;
+   }
 }
 /********mobile******/
+
 @media screen and (max-width: 767px) {
     header{
         margin: 0;
+        padding: 0 5px;
     }
     .navbar{
         width: 100%;
@@ -912,7 +938,7 @@ padding: 5px 0;
         flex-direction: column;
     }
     .navbar img{
-        margin: 0 0 20px 130px;
+        margin: 5% 0 0 38%;
     }
     .nav_item{
         width: 100%;
@@ -920,11 +946,11 @@ padding: 5px 0;
     .nav_item a{
         text-align: center;
         width: 50%;
-        border-bottom: 5px solid #f2f2f2;
+        border-bottom: 3px solid #f2f2f2;
         padding-bottom: 13px;
     }
     .nav_item a:hover{
-        border-bottom: 5px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
     }
     #color{
         margin-left: -60px;
@@ -932,8 +958,15 @@ padding: 5px 0;
     #decor{
         margin-left: -50px;
     }
+    #color:hover{
+        border-bottom: transparent;
+    }
+    #decor:hover{
+        border-bottom: transparent;
+    }
     main{
         margin: 15px 10px;
+        padding: 0 5px;
     }
    
     .search-form button{
@@ -944,7 +977,7 @@ padding: 5px 0;
         flex-direction: row;  
     }
     .city_appartment{
-        background-color: #ffffff;
+        background-color: transparent;
     }
     .city_appartment h2{
         padding: 30px 0 0 0;
@@ -1015,32 +1048,39 @@ padding: 5px 0;
         min-width: 100%;
     }
     .footer{
-        width: 100%;
+        width: 767px;
     }
     .footer_contents{
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-
+        overflow: hidden;
+        
     }
     .bloc{
-        width: 300px;
-        margin: 30px 30px;
+        width: 100%;
+        margin: -50px;
+        padding: 50px;
     }
-    .bloc.footer_propos, .bloc.footer_hotel{
-        margin-bottom: 30px;
-        position: relative;
-        right: 30px;
+    .bloc.footer_propos, .bloc.footer_hotel,
+    .bloc.footer_contact{
+      margin: 30px 0 30px -10px;
+      padding: 20px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
     }
     .bloc.footer_propos{
         margin-top: 5px;
     }
-    .bloc.footer_contact{
-        position: relative;
-        right: 30px;
     }
-    }
+
+
+
+
+
+    
     
 
 
